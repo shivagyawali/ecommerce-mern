@@ -1,0 +1,148 @@
+p {
+  font-family: "Open Sans", sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.nav-tabs > li {
+  float: none;
+  display: inline-block;
+  zoom: 1;
+}
+
+.nav-tabs {
+  text-align: center;
+}
+#notification {
+  position: absolute;
+  top: 3.6rem;
+  z-index: 999;
+  right: 1rem;
+}
+#signup-contain {
+  z-index: 1;
+}
+#signup-img {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("./components/images/signin.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.6;
+  overflow: hidden;
+}
+#signin-container {
+  z-index: 1;
+}
+#signin-img {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("./components/images/signin.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.6;
+  overflow: hidden;
+}
+
+.productContainer {
+  position: relative;
+  margin-bottom: 2rem;
+  left: 0;
+  width: 270px;
+  height: 500px;
+  box-shadow: 0 10px 40px rgba(4, 75, 14, 0.2);
+  border-radius: 15px;
+  overflow: hidden;
+  font-family: "Poppins", "sans-serif";
+}
+
+.product-image {
+  width: 100%;
+  height: 230px;
+  background: center/cover;
+}
+.product-content {
+  width: 100%;
+  height: 270px;
+  background: #f6fbfb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.product-review {
+  width: 240px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.product-stars .fa {
+  font-size: 0.7rem;
+  color: #f9ca1c;
+}
+.product-stars span {
+  font-size: 0.6rem;
+  padding-right: 0.3rem;
+  color: #bfbfbf;
+}
+.product-review h5 {
+  font-size: 1.2rem;
+}
+.product-name .product-detail {
+  width: 240px;
+}
+.product-detail p {
+  color: #3b3838;
+  font-size: 0.8rem;
+  text-align: center;
+}
+.btn-box,
+.btnProduct {
+  display: flex;
+  align-items: center;
+}
+.btn-box {
+  width: 240px;
+  height: 50px;
+  justify-content: space-between;
+}
+.btnProduct {
+  width: 160px;
+  height: 50px;
+  background: #121212;
+  color: #fff;
+  font-size: 0.8rem;
+  justify-content: space-evenly;
+  border-radius: 15px;
+  box-shadow: 0 10px 10px, #121212;
+}
+.add-to-cart {
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+.cart-icon,
+.like {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 35px;
+  background: #333333;
+}
+.like {
+  background: #ededed;
+}
